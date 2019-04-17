@@ -23,8 +23,11 @@ Step3
 Enter the MovieName: shooter   ###it will prompt you to enter the movie name and expected output stated below
 
 {
+
 "Source":"Rotten Tomatoes"
+
 "Value":"47%"
+
 }
 
 
