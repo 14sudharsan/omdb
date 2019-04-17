@@ -1,48 +1,29 @@
-# omdb
+# Purpose of this docker container
 
-How to get Movie Rotten Tomatoes Value using docker container at one step
+Our ultimate goal is to get Required Movie name OMDB Rotten Tomatoes Value
 
-Step1 
+Step 1 
 
-san@san:~/docker$ ./setup-omdbapi.sh 
+Git clone this repository
 
-Downloading omdbapi docker image please wait ...
+git clone https://github.com/14sudharsan/omdb.git
 
-version1: Pulling from 14sudharsan/omdbapi
+Step 2
 
-898c46f3b1a1: Already exists 
+Execute the following command
 
-63366dfa0a50: Already exists 
+./setup-omdbapi.sh
 
-041d4cd74a92: Already exists 
+Step 3
+It will download docker image from docker hub and it will prompt for 
 
-6e1bee0f8701: Already exists 
+Enter the MovieName : Shooter       ## For example Enter movie name 
 
-3beac5b97614: Already exists 
+Expected Output
 
-12b2135d3178: Already exists 
+Shooter Movie Rotten Tomatoes Value is 47
 
-80d30fc7ca70: Already exists 
 
-ee0a5bff27e6: Already exists 
-
-Digest: sha256:2b3ee70ef5fa15fddf6fe87174078152d7557eed9ce71d3ae4a5d5d7dca1287f
-
-Status: Downloaded newer image for 14sudharsan/omdbapi:version1
-
-Docker container spawn from container image
-
-# Enter the MovieName : shooter
-
-shooter
-
-{
-
-"Source": "Rotten Tomatoes",
-
-"Value": "47%"
-
-}
 
 
 
