@@ -10,7 +10,7 @@ git clone https://github.com/14sudharsan/omdb.git
 
 Step 2
 
-Execute the following command
+Execute the following command to execute wrapper script
 
 ./setup-omdbapi.sh
 
