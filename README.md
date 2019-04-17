@@ -4,7 +4,7 @@ How to get Movie Rotten Tomatoes Value using docker container
 
 Step1 
 
-sudo docker pull 14sudharsan/omdb:version2
+sudo docker pull 14sudharsan/omdbapi:version1
 
 
 
@@ -12,21 +12,17 @@ Step2
 
 Spawn docker container from image
 
-sudo docker run -it 14sudharsan/omdb:version2 bash
+san@san:~/docker$ docker run -it 14sudharsan/omdbapi:version1 bash
 
-
-
-Step3
-
-./mymovie.sh 
-
-Enter the MovieName: shooter   ###it will prompt you to enter the movie name and expected output stated below
+ Enter the MovieName : shooter
+ 
+shooter
 
 {
 
-"Source":"Rotten Tomatoes"
+  "Source": "Rotten Tomatoes",
 
-"Value":"47%"
+"Value": "47%"
 
 }
 
