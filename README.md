@@ -14,14 +14,14 @@ Execute the following command
 
 ./setup-omdbapi.sh
 
-Step 3
-It will download docker image from docker hub and it will prompt for 
+
+It will automatically download docker image from docker hub and it will prompt for 
 
 Enter the MovieName : Shooter       ## For example Enter movie name 
 
 Expected Output
 
-Shooter Movie Rotten Tomatoes Value is 47
+# Shooter Movie Rotten Tomatoes Value is 47
 
 
 
