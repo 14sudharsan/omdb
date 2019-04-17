@@ -1,6 +1,6 @@
 # omdb
 
-How to get Movie Rotten Tomatoes Value using docker container
+How to get Movie Rotten Tomatoes Value using docker container at one step
 
 Step1 
 
