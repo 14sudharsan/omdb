@@ -1,6 +1,6 @@
 # Purpose of this docker container
-
-Our ultimate goal is to get Required Movie name OMDB Rotten Tomatoes Value
+ 
+Our ultimate aim is to get Rotten Tomatoes Value from OMDB
 
 Step 1 
 
