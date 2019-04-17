@@ -17,7 +17,7 @@ Execute the following command to execute wrapper script
 
 It will automatically download docker image from docker hub and it will prompt for 
 
-Enter the MovieName : Shooter       ## For example Enter movie name 
+Enter the MovieName : Shooter      
 
 Expected Output
 
